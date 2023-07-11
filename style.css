@@ -1,0 +1,263 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+}
+a{
+   text-decoration: none;
+}
+#container{
+   width: 100%;
+
+}
+#bannar{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   background: rgba(229, 84, 115, 0.10);
+}
+.leftSide{
+   width: 45%;
+   height: 100vh;
+   margin-left: 200px;
+
+}
+.leftSide > h2{
+  margin-top: 150px;
+   color: #272727;
+   font-family: Lato;
+   font-size: 80px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+
+}
+.leftSide > p{
+   color: rgba(39, 39, 39, 0.60);
+   font-family: Lato;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   margin: 32px 0px;
+
+}
+.leftSide > a{
+   border-radius: 8px;
+   background-color: #E55473;
+   color: #fff;
+   outline: none;
+   padding: 20px 40px;
+}
+.rightSide{
+   width: 40%;
+   height: 100%;
+   position: relative;
+}
+.rightSide > img{
+   max-width: 500px;
+   max-height: 600px;
+   bottom: 0px;
+   right: 100px;
+   margin-top: 50px;
+   position: absolute;
+}
+#mainSection{
+   width: 100%;
+   height: 100vh;
+
+}
+#mainSection .text{
+   text-align: center;
+   margin-top: 150px;
+
+}
+#mainSection h3{
+   color: #272727;
+   text-align: center;
+   font-family: Lato;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+#mainSection p{
+   margin: 24px 0px 48px 0px;
+   color: rgba(39, 39, 39, 0.60);
+   text-align: center;
+   font-family: Lato;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+}
+.flowerbox{
+   display: flex;
+   flex-direction: left;
+   width: 100%;
+   height: 400px;
+   text-align: center;
+   margin-top: 200px;
+   margin-bottom: 130px;
+}
+.flowerbox .box{
+   width: 25%;
+   height: 500px;
+   display: inline-block;
+   margin-right: 24px;
+
+
+}
+.flowerbox .box:first-child{
+   margin-left: 180px;
+}
+.flowerbox .box img{
+   width: 100%;
+   height: 100%;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   margin-bottom: 32px;
+
+}
+.flowerbox .box a{
+   color: #272727;
+   text-align: center;
+   font-family: Lato;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 35px;
+   text-decoration-line: underline;
+   
+  
+}
+#soportBox{
+   width: 78%;
+   height: 320px;
+   background-color: aqua;
+   align-items: center;
+   margin: 300px  auto 0px auto;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 100px;
+
+   
+}
+#soportBox .box{
+   display: flex;
+   width: 30%;
+   height: 100%;
+   margin-left: 3%;
+   align-items: center;
+   text-align: center;
+   display: inline-block;
+   
+}
+#soportBox .box > img{
+   width: 88px;
+   height: 88px;
+   margin: 0 auto;
+   margin-top: 86px;
+   margin-bottom: 24px;
+}
+#HotDeal{
+   width: 100%;
+   height: 620px;
+   display: flex;
+   flex-direction: row;
+   margin: 0 auto;
+   background-color: #FDF6F8;
+}
+#HotDeal .leftSide{
+   width: 620px;
+   align-items: center;
+   text-align: center;
+
+}
+#HotDeal .leftSide h3{
+   color: #272727;
+   font-family: Lato;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   margin-top: 220px;
+
+
+}
+#HotDeal .leftSide .off{
+   color: #ff0000;
+}
+#HotDeal .rightSide{
+   width: 40%;
+
+}
+#HotDeal .rightSide img{
+   width: 318px;
+   height: 450px;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 100px;
+}
+
+.line{
+   width: 30px;
+   height: 10px;
+   margin: 0 auto;
+   background-color: red;
+   margin: 100px;
+}
+#mailBox{
+   background-image: url(./imgcss/Rectangle\ 9.png);
+   width: 78%;
+   height: 450px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   justify-content: center;
+   background-position: center;
+   margin: 0 auto;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding-top: 122px;
+}
+#mailBox h3{
+   
+   color: #272727;
+   text-align: center;
+   font-family: Lato;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   margin-bottom: 22px;
+}
+#mailBox p{
+   color: rgba(39, 39, 39, 0.60);
+   text-align: center;
+   font-family: Lato;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   margin-bottom: 48px;
+
+
+   }
+   #mailBox .box{
+      width: 650px;
+      height: 64px;
+      padding: 20px;
+   }
+   #mailBox button{
+      outline: none;
+      border: none;
+      color: #fff;
+      background-color: #E55473;
+      padding: 24px 30px;
+      width: 120px;
+      height: 64px;
+      border-radius: 8px;
+      margin-left: 8px;
+   }
